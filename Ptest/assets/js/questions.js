@@ -6,226 +6,226 @@ const questions = {
         {
             id: 1,
             category: "reality",
-            question: "世界的本质是固定不变的，还是处于不断变化之中？",
+            question: "当你遇到一个新的社会现象时，你更倾向于认为？",
             options: [
-                {text: "世界有固定的本质和真理", value: "U"},
-                {text: "世界处于永恒的变化之中", value: "V"}
+                {text: "它背后有固定的规律和本质", value: "U"},
+                {text: "它是不断变化的，需要具体分析", value: "V"}
             ]
         },
         {
             id: 2,
             category: "cognition",
-            question: "你认为认识世界的主要方式是什么？",
+            question: "在规划一次旅行时，你通常会？",
             options: [
-                {text: "通过逻辑和推理", value: "R"},
-                {text: "通过感受和经验", value: "X"}
+                {text: "详细研究攻略，制定周密计划", value: "R"},
+                {text: "大致了解后，随心情探索", value: "X"}
             ]
         },
         {
             id: 3,
             category: "ethics",
-            question: "判断行为对错的标准应该是什么？",
+            question: "当朋友向你借钱但可能无法按时归还时，你会？",
             options: [
-                {text: "行为的结果和影响", value: "G"},
-                {text: "行为是否符合道德原则", value: "D"}
+                {text: "考虑他的困难和还钱能力，决定是否借", value: "G"},
+                {text: "基于友谊的责任，尽量帮助他", value: "D"}
             ]
         },
         {
             id: 4,
             category: "society",
-            question: "在社会中，个人与集体的关系应该是怎样的？",
+            question: "在团队合作中，你更重视？",
             options: [
-                {text: "集体利益优先于个人利益", value: "O"},
-                {text: "个人自由和差异应该被尊重", value: "M"}
+                {text: "团队的整体目标和和谐", value: "O"},
+                {text: "个人的独特贡献和自由发挥", value: "M"}
             ]
         },
         {
             id: 5,
             category: "reality",
-            question: "你认为真理是绝对的还是相对的？",
+            question: "当你学习一门新技术时，你认为？",
             options: [
-                {text: "存在绝对的真理", value: "U"},
-                {text: "真理是相对的，取决于情境", value: "V"}
+                {text: "掌握其基本原理比具体操作更重要", value: "U"},
+                {text: "通过实际操作和经验积累更有效", value: "V"}
             ]
         },
         {
             id: 6,
             category: "cognition",
-            question: "在做重要决定时，你更依赖什么？",
+            question: "在选择职业时，你更看重？",
             options: [
-                {text: "理性分析和逻辑思考", value: "R"},
-                {text: "直觉和个人感受", value: "X"}
+                {text: "理性分析行业前景和自身优势", value: "R"},
+                {text: "个人兴趣和工作中的感受", value: "X"}
             ]
         },
         {
             id: 7,
             category: "ethics",
-            question: "你认为道德规则应该是怎样的？",
+            question: "当你看到有人插队时，你会？",
             options: [
-                {text: "根据具体情况灵活调整", value: "G"},
-                {text: "应该有普遍适用的原则", value: "D"}
+                {text: "视情况而定，可能选择容忍或提醒", value: "G"},
+                {text: "认为这是不道德的，应该指出", value: "D"}
             ]
         },
         {
             id: 8,
             category: "society",
-            question: "你如何看待社会秩序？",
+            question: "你认为学校教育应该更注重？",
             options: [
-                {text: "秩序和统一很重要", value: "O"},
-                {text: "多样性和自由更重要", value: "M"}
+                {text: "统一的知识体系和纪律", value: "O"},
+                {text: "学生的个性发展和创造力", value: "M"}
             ]
         },
         {
             id: 9,
             category: "reality",
-            question: "你认为事物的本质是否可知？",
+            question: "当你与他人产生分歧时，你会？",
             options: [
-                {text: "通过理性可以认识事物的本质", value: "U"},
-                {text: "事物的本质是不断变化的，难以完全认识", value: "V"}
+                {text: "寻找客观事实和逻辑来解决", value: "U"},
+                {text: "理解对方的立场和感受", value: "V"}
             ]
         },
         {
             id: 10,
             category: "cognition",
-            question: "你更相信哪种知识来源？",
+            question: "在评价一部电影时，你更关注？",
             options: [
-                {text: "科学和逻辑推理", value: "R"},
-                {text: "个人经验和直觉", value: "X"}
+                {text: "剧情的逻辑和结构", value: "R"},
+                {text: "观影时的感受和情感共鸣", value: "X"}
             ]
         },
         {
             id: 11,
             category: "ethics",
-            question: "在面对道德困境时，你会怎么做？",
+            question: "当你需要在工作和家庭之间平衡时，你会？",
             options: [
-                {text: "考虑哪种选择能带来最好的结果", value: "G"},
-                {text: "遵循道德原则，不管结果如何", value: "D"}
+                {text: "根据具体情况权衡，选择当前更重要的", value: "G"},
+                {text: "认为家庭责任优先，尽量兼顾工作", value: "D"}
             ]
         },
         {
             id: 12,
             category: "society",
-            question: "你认为理想的社会应该是什么样的？",
+            question: "你如何看待社交媒体上的不同观点？",
             options: [
-                {text: "和谐统一，共同目标", value: "O"},
-                {text: "多元包容，个性自由", value: "M"}
+                {text: "希望通过讨论达成共识", value: "O"},
+                {text: "欣赏多元化的声音", value: "M"}
             ]
         },
         {
             id: 13,
             category: "reality",
-            question: "你认为变化是表面的还是本质的？",
+            question: "当你面对生活中的变化时，你会？",
             options: [
-                {text: "变化是表面的，本质不变", value: "U"},
-                {text: "变化是本质的，一切都在流动", value: "V"}
+                {text: "坚持自己的原则和价值观", value: "U"},
+                {text: "调整自己适应新情况", value: "V"}
             ]
         },
         {
             id: 14,
             category: "cognition",
-            question: "你如何看待抽象思维和具体经验？",
+            question: "在解决问题时，你更倾向于？",
             options: [
-                {text: "抽象思维更能把握本质", value: "R"},
-                {text: "具体经验更真实可靠", value: "X"}
+                {text: "分析问题的根本原因", value: "R"},
+                {text: "尝试不同方法，从经验中学习", value: "X"}
             ]
         },
         {
             id: 15,
             category: "ethics",
-            question: "你认为道德价值的来源是什么？",
+            question: "你认为保护环境的主要原因是？",
             options: [
-                {text: "行为的后果和效用", value: "G"},
-                {text: "内在的道德义务", value: "D"}
+                {text: "为了人类的可持续发展", value: "G"},
+                {text: "自然本身有其内在价值", value: "D"}
             ]
         },
         {
             id: 16,
             category: "society",
-            question: "你如何看待社会中的差异和分歧？",
+            question: "在组织活动时，你更倾向于？",
             options: [
-                {text: "应该寻求共识和统一", value: "O"},
-                {text: "差异是正常且有价值的", value: "M"}
+                {text: "制定详细计划，确保顺利进行", value: "O"},
+                {text: "保持灵活性，让大家自由参与", value: "M"}
             ]
         },
         {
             id: 17,
             category: "reality",
-            question: "你认为宇宙是否有目的和秩序？",
+            question: "你认为成功的关键是什么？",
             options: [
-                {text: "宇宙有内在的秩序和目的", value: "U"},
-                {text: "宇宙是随机和无目的的", value: "V"}
+                {text: "明确的目标和坚持", value: "U"},
+                {text: "适应变化和抓住机会", value: "V"}
             ]
         },
         {
             id: 18,
             category: "cognition",
-            question: "你更重视理论知识还是实践经验？",
+            question: "当你学习新事物时，你更喜欢？",
             options: [
-                {text: "理论知识更基础", value: "R"},
-                {text: "实践经验更重要", value: "X"}
+                {text: "先了解理论基础", value: "R"},
+                {text: "直接动手实践", value: "X"}
             ]
         },
         {
             id: 19,
             category: "ethics",
-            question: "你认为道德判断应该基于什么？",
+            question: "你认为对待动物的态度应该是？",
             options: [
-                {text: "最大多数人的最大幸福", value: "G"},
-                {text: "普遍的道德法则", value: "D"}
+                {text: "考虑人类的需要和动物的福利", value: "G"},
+                {text: "认为动物有生存权，应该被尊重", value: "D"}
             ]
         },
         {
             id: 20,
             category: "society",
-            question: "你如何看待个人权利和社会责任？",
+            question: "你如何看待财富分配？",
             options: [
-                {text: "社会责任优先于个人权利", value: "O"},
-                {text: "个人权利应该得到保障", value: "M"}
+                {text: "应该兼顾效率和公平", value: "O"},
+                {text: "应该尊重个人的劳动成果", value: "M"}
             ]
         },
         {
             id: 21,
             category: "reality",
-            question: "你认为本质和现象的关系是怎样的？",
+            question: "当你阅读一本小说时，你更关注？",
             options: [
-                {text: "本质决定现象", value: "U"},
-                {text: "现象就是本质，没有固定本质", value: "V"}
+                {text: "故事的主题和深层含义", value: "U"},
+                {text: "情节的发展和人物的命运", value: "V"}
             ]
         },
         {
             id: 22,
             category: "cognition",
-            question: "你如何看待逻辑和情感在认识中的作用？",
+            question: "在做决定时，你更相信？",
             options: [
-                {text: "逻辑是认识的基础", value: "R"},
-                {text: "情感和直觉同样重要", value: "X"}
+                {text: "冷静的分析和理性判断", value: "R"},
+                {text: "直觉和内心的感受", value: "X"}
             ]
         },
         {
             id: 23,
             category: "ethics",
-            question: "你认为道德是否具有普遍性？",
+            question: "你认为说谎在什么情况下可以接受？",
             options: [
-                {text: "道德原则应该普遍适用", value: "D"},
-                {text: "道德因文化和情境而异", value: "G"}
+                {text: "当说谎可以避免更大的伤害时", value: "G"},
+                {text: "说谎始终是不道德的", value: "D"}
             ]
         },
         {
             id: 24,
             category: "society",
-            question: "你如何看待传统和创新的关系？",
+            question: "你如何看待传统文化？",
             options: [
-                {text: "传统是社会稳定的基础", value: "O"},
-                {text: "创新是社会发展的动力", value: "M"}
+                {text: "传承其中的精华，保持文化根脉", value: "O"},
+                {text: "文化应该随时代发展，不断创新", value: "M"}
             ]
         },
         {
             id: 25,
             category: "reality",
-            question: "你认为真理是被发现的还是被创造的？",
+            question: "当你面对挑战时，你认为？",
             options: [
-                {text: "真理是客观存在的，需要被发现", value: "U"},
-                {text: "真理是人类创造的，随时代变化", value: "V"}
+                {text: "挑战背后有成长的机会", value: "U"},
+                {text: "挑战是生活的常态，需要灵活应对", value: "V"}
             ]
         }
     ],
@@ -234,496 +234,496 @@ const questions = {
         {
             id: 1,
             category: "reality",
-            question: "世界的本质是固定不变的，还是处于不断变化之中？",
+            question: "当你面对工作中的新挑战时，你更倾向于？",
             options: [
-                {text: "世界有固定的本质和真理", value: "U"},
-                {text: "世界处于永恒的变化之中", value: "V"}
+                {text: "寻找类似情况的处理方法和规律", value: "U"},
+                {text: "根据具体情况灵活应对", value: "V"}
             ]
         },
         {
             id: 2,
             category: "cognition",
-            question: "你认为认识世界的主要方式是什么？",
+            question: "在学习一门新技能时，你通常会？",
             options: [
-                {text: "通过逻辑和推理", value: "R"},
-                {text: "通过感受和经验", value: "X"}
+                {text: "先了解原理和方法，再实践", value: "R"},
+                {text: "直接动手尝试，从错误中学习", value: "X"}
             ]
         },
         {
             id: 3,
             category: "ethics",
-            question: "判断行为对错的标准应该是什么？",
+            question: "当你发现同事在工作中犯错时，你会？",
             options: [
-                {text: "行为的结果和影响", value: "G"},
-                {text: "行为是否符合道德原则", value: "D"}
+                {text: "考虑他的处境和错误的影响，决定如何处理", value: "G"},
+                {text: "基于诚实和责任，及时指出错误", value: "D"}
             ]
         },
         {
             id: 4,
             category: "society",
-            question: "在社会中，个人与集体的关系应该是怎样的？",
+            question: "在家庭决策中，你更重视？",
             options: [
-                {text: "集体利益优先于个人利益", value: "O"},
-                {text: "个人自由和差异应该被尊重", value: "M"}
+                {text: "全家的整体利益和和谐", value: "O"},
+                {text: "每个家庭成员的个人需求", value: "M"}
             ]
         },
         {
             id: 5,
             category: "reality",
-            question: "你认为真理是绝对的还是相对的？",
+            question: "当你购买一件商品时，你更关注？",
             options: [
-                {text: "存在绝对的真理", value: "U"},
-                {text: "真理是相对的，取决于情境", value: "V"}
+                {text: "商品的质量和性价比", value: "U"},
+                {text: "购买时的体验和个人喜好", value: "V"}
             ]
         },
         {
             id: 6,
             category: "cognition",
-            question: "在做重要决定时，你更依赖什么？",
+            question: "在解决人际关系问题时，你更依赖？",
             options: [
-                {text: "理性分析和逻辑思考", value: "R"},
-                {text: "直觉和个人感受", value: "X"}
+                {text: "理性沟通和分析问题根源", value: "R"},
+                {text: "直觉和情感共鸣", value: "X"}
             ]
         },
         {
             id: 7,
             category: "ethics",
-            question: "你认为道德规则应该是怎样的？",
+            question: "当你需要在个人利益和他人利益之间选择时，你会？",
             options: [
-                {text: "根据具体情况灵活调整", value: "G"},
-                {text: "应该有普遍适用的原则", value: "D"}
+                {text: "权衡双方的需求和后果", value: "G"},
+                {text: "优先考虑他人的需要", value: "D"}
             ]
         },
         {
             id: 8,
             category: "society",
-            question: "你如何看待社会秩序？",
+            question: "你认为社区活动的意义在于？",
             options: [
-                {text: "秩序和统一很重要", value: "O"},
-                {text: "多样性和自由更重要", value: "M"}
+                {text: "增强社区凝聚力和共同价值观", value: "O"},
+                {text: "提供个人发展和社交的机会", value: "M"}
             ]
         },
         {
             id: 9,
             category: "reality",
-            question: "你认为事物的本质是否可知？",
+            question: "当你制定长期计划时，你更倾向于？",
             options: [
-                {text: "通过理性可以认识事物的本质", value: "U"},
-                {text: "事物的本质是不断变化的，难以完全认识", value: "V"}
+                {text: "设定明确的目标和步骤", value: "U"},
+                {text: "保持灵活性，适应变化", value: "V"}
             ]
         },
         {
             id: 10,
             category: "cognition",
-            question: "你更相信哪种知识来源？",
+            question: "在评价他人时，你更注重？",
             options: [
-                {text: "科学和逻辑推理", value: "R"},
-                {text: "个人经验和直觉", value: "X"}
+                {text: "客观事实和具体行为", value: "R"},
+                {text: "直觉感受和整体印象", value: "X"}
             ]
         },
         {
             id: 11,
             category: "ethics",
-            question: "在面对道德困境时，你会怎么做？",
+            question: "当你看到有人需要帮助但可能会耽误自己的时间时，你会？",
             options: [
-                {text: "考虑哪种选择能带来最好的结果", value: "G"},
-                {text: "遵循道德原则，不管结果如何", value: "D"}
+                {text: "根据自己的时间安排和帮助的紧急程度决定", value: "G"},
+                {text: "尽可能提供帮助，即使会占用自己的时间", value: "D"}
             ]
         },
         {
             id: 12,
             category: "society",
-            question: "你认为理想的社会应该是什么样的？",
+            question: "你认为企业文化应该强调？",
             options: [
-                {text: "和谐统一，共同目标", value: "O"},
-                {text: "多元包容，个性自由", value: "M"}
+                {text: "团队合作和共同目标", value: "O"},
+                {text: "个人创新和独立思考", value: "M"}
             ]
         },
         {
             id: 13,
             category: "reality",
-            question: "你认为变化是表面的还是本质的？",
+            question: "当你面对生活中的挫折时，你会？",
             options: [
-                {text: "变化是表面的，本质不变", value: "U"},
-                {text: "变化是本质的，一切都在流动", value: "V"}
+                {text: "坚持自己的信念和目标", value: "U"},
+                {text: "调整自己的期望和方法", value: "V"}
             ]
         },
         {
             id: 14,
             category: "cognition",
-            question: "你如何看待抽象思维和具体经验？",
+            question: "在阅读一本书时，你更关注？",
             options: [
-                {text: "抽象思维更能把握本质", value: "R"},
-                {text: "具体经验更真实可靠", value: "X"}
+                {text: "书中的逻辑结构和核心观点", value: "R"},
+                {text: "阅读时的感受和个人启发", value: "X"}
             ]
         },
         {
             id: 15,
             category: "ethics",
-            question: "你认为道德价值的来源是什么？",
+            question: "你认为教育孩子的重点应该是？",
             options: [
-                {text: "行为的后果和效用", value: "G"},
-                {text: "内在的道德义务", value: "D"}
+                {text: "培养他们的责任感和适应社会的能力", value: "G"},
+                {text: "培养他们的道德观念和价值观", value: "D"}
             ]
         },
         {
             id: 16,
             category: "society",
-            question: "你如何看待社会中的差异和分歧？",
+            question: "在社交媒体上，你更倾向于？",
             options: [
-                {text: "应该寻求共识和统一", value: "O"},
-                {text: "差异是正常且有价值的", value: "M"}
+                {text: "分享有价值的信息和观点", value: "O"},
+                {text: "表达个人感受和生活瞬间", value: "M"}
             ]
         },
         {
             id: 17,
             category: "reality",
-            question: "你认为宇宙是否有目的和秩序？",
+            question: "当你选择朋友时，你更看重？",
             options: [
-                {text: "宇宙有内在的秩序和目的", value: "U"},
-                {text: "宇宙是随机和无目的的", value: "V"}
+                {text: "共同的价值观和性格匹配", value: "U"},
+                {text: "相处时的感觉和默契", value: "V"}
             ]
         },
         {
             id: 18,
             category: "cognition",
-            question: "你更重视理论知识还是实践经验？",
+            question: "在规划未来时，你更倾向于？",
             options: [
-                {text: "理论知识更基础", value: "R"},
-                {text: "实践经验更重要", value: "X"}
+                {text: "制定详细的计划和目标", value: "R"},
+                {text: "保持开放心态，接受各种可能性", value: "X"}
             ]
         },
         {
             id: 19,
             category: "ethics",
-            question: "你认为道德判断应该基于什么？",
+            question: "你认为对待弱势群体的态度应该是？",
             options: [
-                {text: "最大多数人的最大幸福", value: "G"},
-                {text: "普遍的道德法则", value: "D"}
+                {text: "提供必要的帮助，促进社会公平", value: "G"},
+                {text: "基于人道主义，无条件关怀", value: "D"}
             ]
         },
         {
             id: 20,
             category: "society",
-            question: "你如何看待个人权利和社会责任？",
+            question: "你如何看待社会福利制度？",
             options: [
-                {text: "社会责任优先于个人权利", value: "O"},
-                {text: "个人权利应该得到保障", value: "M"}
+                {text: "应该保障基本需求，促进社会稳定", value: "O"},
+                {text: "应该尊重个人努力，避免养懒人", value: "M"}
             ]
         },
         {
             id: 21,
             category: "reality",
-            question: "你认为本质和现象的关系是怎样的？",
+            question: "当你评价一件艺术品时，你更关注？",
             options: [
-                {text: "本质决定现象", value: "U"},
-                {text: "现象就是本质，没有固定本质", value: "V"}
+                {text: "作品的技巧和内涵", value: "U"},
+                {text: "作品带给你的感受和体验", value: "V"}
             ]
         },
         {
             id: 22,
             category: "cognition",
-            question: "你如何看待逻辑和情感在认识中的作用？",
+            question: "在做购物决策时，你更依赖？",
             options: [
-                {text: "逻辑是认识的基础", value: "R"},
-                {text: "情感和直觉同样重要", value: "X"}
+                {text: "产品信息和性价比分析", value: "R"},
+                {text: "个人偏好和购物体验", value: "X"}
             ]
         },
         {
             id: 23,
             category: "ethics",
-            question: "你认为道德是否具有普遍性？",
+            question: "你认为网络言论的边界应该是？",
             options: [
-                {text: "道德原则应该普遍适用", value: "D"},
-                {text: "道德因文化和情境而异", value: "G"}
+                {text: "言论自由但需负责任，避免伤害他人", value: "G"},
+                {text: "无论何时都应尊重事实和他人权利", value: "D"}
             ]
         },
         {
             id: 24,
             category: "society",
-            question: "你如何看待传统和创新的关系？",
+            question: "你如何看待代际差异？",
             options: [
-                {text: "传统是社会稳定的基础", value: "O"},
-                {text: "创新是社会发展的动力", value: "M"}
+                {text: "应该传承优秀传统，保持文化连续性", value: "O"},
+                {text: "应该尊重年轻一代的创新和变化", value: "M"}
             ]
         },
         {
             id: 25,
             category: "reality",
-            question: "你认为真理是被发现的还是被创造的？",
+            question: "当你面对健康问题时，你更倾向于？",
             options: [
-                {text: "真理是客观存在的，需要被发现", value: "U"},
-                {text: "真理是人类创造的，随时代变化", value: "V"}
+                {text: "遵循医生的专业建议和治疗方案", value: "U"},
+                {text: "结合个人体验和多种疗法", value: "V"}
             ]
         },
         {
             id: 26,
             category: "cognition",
-            question: "你认为知识的确定性来源于哪里？",
+            question: "在解决技术问题时，你更倾向于？",
             options: [
-                {text: "来源于逻辑和数学的确定性", value: "R"},
-                {text: "来源于经验的可靠性", value: "X"}
+                {text: "查阅资料，理解原理后解决", value: "R"},
+                {text: "尝试不同方法，直到解决问题", value: "X"}
             ]
         },
         {
             id: 27,
             category: "ethics",
-            question: "在面对利益冲突时，你会优先考虑什么？",
+            question: "当你需要在工作和个人生活之间平衡时，你会？",
             options: [
-                {text: "整体的最大利益", value: "G"},
-                {text: "道德责任和义务", value: "D"}
+                {text: "根据具体情况调整，兼顾两者", value: "G"},
+                {text: "优先考虑家庭责任", value: "D"}
             ]
         },
         {
             id: 28,
             category: "society",
-            question: "你如何看待社会规则和个人自由的关系？",
+            question: "你认为公共空间的使用应该？",
             options: [
-                {text: "规则是自由的保障", value: "O"},
-                {text: "自由应该少受规则限制", value: "M"}
+                {text: "遵循规则，保持秩序", value: "O"},
+                {text: "灵活使用，满足个人需求", value: "M"}
             ]
         },
         {
             id: 29,
             category: "reality",
-            question: "你认为世界的存在是否依赖于人的意识？",
+            question: "当你规划假期时，你更倾向于？",
             options: [
-                {text: "世界独立于人的意识存在", value: "U"},
-                {text: "世界的意义依赖于人的意识", value: "V"}
+                {text: "提前制定详细行程", value: "U"},
+                {text: "留出足够的自由时间，随机安排", value: "V"}
             ]
         },
         {
             id: 30,
             category: "cognition",
-            question: "你如何看待科学和哲学的关系？",
+            question: "在学习历史时，你更关注？",
             options: [
-                {text: "科学是哲学的基础", value: "R"},
-                {text: "哲学为科学提供意义", value: "X"}
+                {text: "历史事件的原因和影响", value: "R"},
+                {text: "历史人物的故事和情感", value: "X"}
             ]
         },
         {
             id: 31,
             category: "ethics",
-            question: "你认为道德教育的重点应该是什么？",
+            question: "你认为慈善行为的意义在于？",
             options: [
-                {text: "培养对后果的责任感", value: "G"},
-                {text: "培养对道德原则的尊重", value: "D"}
+                {text: "帮助需要的人，改善社会状况", value: "G"},
+                {text: "体现人类的 compassion和道德责任", value: "D"}
             ]
         },
         {
             id: 32,
             category: "society",
-            question: "你认为社会进步的动力是什么？",
+            question: "你如何看待职场竞争？",
             options: [
-                {text: "集体的协作和努力", value: "O"},
-                {text: "个人的创造力和自由", value: "M"}
+                {text: "适度竞争可以促进整体进步", value: "O"},
+                {text: "竞争应该尊重个人权利和公平原则", value: "M"}
             ]
         },
         {
             id: 33,
             category: "reality",
-            question: "你认为时间是线性的还是循环的？",
+            question: "当你面对选择时，你更倾向于？",
             options: [
-                {text: "时间是线性的，有开始和结束", value: "U"},
-                {text: "时间是循环的，不断重复", value: "V"}
+                {text: "分析利弊，做出最合理的选择", value: "U"},
+                {text: "跟随内心的感觉和直觉", value: "V"}
             ]
         },
         {
             id: 34,
             category: "cognition",
-            question: "你如何看待直觉在决策中的作用？",
+            question: "在团队讨论中，你更倾向于？",
             options: [
-                {text: "直觉应该被理性分析验证", value: "R"},
-                {text: "直觉是宝贵的智慧来源", value: "X"}
+                {text: "提出逻辑清晰的观点和建议", value: "R"},
+                {text: "倾听他人意见，表达个人感受", value: "X"}
             ]
         },
         {
             id: 35,
             category: "ethics",
-            question: "你认为动物有道德地位吗？",
+            question: "你认为对待传统文化的态度应该是？",
             options: [
-                {text: "动物的道德地位取决于它们的感受能力", value: "G"},
-                {text: "动物有内在的道德价值", value: "D"}
+                {text: "取其精华，去其糟粕，适应现代社会", value: "G"},
+                {text: "尊重传统，保持文化的连续性", value: "D"}
             ]
         },
         {
             id: 36,
             category: "society",
-            question: "你如何看待财富分配的公平性？",
+            question: "你如何看待社会志愿服务？",
             options: [
-                {text: "应该追求结果的平等", value: "O"},
-                {text: "应该保障机会的平等", value: "M"}
+                {text: "是促进社会和谐的重要方式", value: "O"},
+                {text: "是个人成长和实现价值的途径", value: "M"}
             ]
         },
         {
             id: 37,
             category: "reality",
-            question: "你认为宇宙的规律是必然的还是偶然的？",
+            question: "当你学习历史时，你认为？",
             options: [
-                {text: "宇宙规律是必然的，可被理性认识", value: "U"},
-                {text: "宇宙规律是偶然的，可能不同", value: "V"}
+                {text: "历史有规律可循，能给我们启示", value: "U"},
+                {text: "历史是独特的，每个时代都不同", value: "V"}
             ]
         },
         {
             id: 38,
             category: "cognition",
-            question: "你如何看待语言在思维中的作用？",
+            question: "在解决冲突时，你更倾向于？",
             options: [
-                {text: "语言是思维的工具", value: "R"},
-                {text: "语言塑造思维方式", value: "X"}
+                {text: "分析问题，寻找双赢的解决方案", value: "R"},
+                {text: "理解对方感受，建立情感连接", value: "X"}
             ]
         },
         {
             id: 39,
             category: "ethics",
-            question: "你认为撒谎在什么情况下是可接受的？",
+            question: "你认为企业的社会责任应该包括？",
             options: [
-                {text: "当撒谎能避免更大的伤害时", value: "G"},
-                {text: "撒谎始终是不道德的", value: "D"}
+                {text: "创造就业，促进经济发展", value: "G"},
+                {text: "保护环境，回馈社会", value: "D"}
             ]
         },
         {
             id: 40,
             category: "society",
-            question: "你如何看待文化多样性？",
+            question: "你如何看待城市化进程？",
             options: [
-                {text: "文化多样性应该被统一的价值观整合", value: "O"},
-                {text: "文化多样性本身就是价值", value: "M"}
+                {text: "应该注重城市的整体规划和可持续发展", value: "O"},
+                {text: "应该尊重每个城市的特色和居民需求", value: "M"}
             ]
         },
         {
             id: 41,
             category: "reality",
-            question: "你认为美是客观的还是主观的？",
+            question: "当你评价一部电影时，你更关注？",
             options: [
-                {text: "美有客观标准", value: "U"},
-                {text: "美是主观感受", value: "V"}
+                {text: "电影的剧情结构和主题表达", value: "U"},
+                {text: "电影带给你的情感体验", value: "V"}
             ]
         },
         {
             id: 42,
             category: "cognition",
-            question: "你如何看待梦境和现实的关系？",
+            question: "在制定个人目标时，你更倾向于？",
             options: [
-                {text: "梦境是现实的反映", value: "R"},
-                {text: "梦境揭示潜意识的真理", value: "X"}
+                {text: "设定具体、可衡量的目标", value: "R"},
+                {text: "设定方向和愿景，灵活调整", value: "X"}
             ]
         },
         {
             id: 43,
             category: "ethics",
-            question: "你认为死刑是否道德？",
+            question: "你认为对待工作的态度应该是？",
             options: [
-                {text: "死刑是对严重犯罪的合理惩罚", value: "G"},
-                {text: "死刑侵犯生命权，不道德", value: "D"}
+                {text: "认真负责，追求卓越", value: "G"},
+                {text: "尽职尽责，遵守职业道德", value: "D"}
             ]
         },
         {
             id: 44,
             category: "society",
-            question: "你如何看待政府的角色？",
+            question: "你如何看待社会不平等问题？",
             options: [
-                {text: "政府应该积极干预社会", value: "O"},
-                {text: "政府应该最小化干预", value: "M"}
+                {text: "应该通过政策和制度减少不平等", value: "O"},
+                {text: "应该保障每个人的机会平等", value: "M"}
             ]
         },
         {
             id: 45,
             category: "reality",
-            question: "你认为人类有固定的本性吗？",
+            question: "当你面对压力时，你更倾向于？",
             options: [
-                {text: "人类有固定的本性", value: "U"},
-                {text: "人类本性是社会建构的", value: "V"}
+                {text: "制定计划，有条理地应对", value: "U"},
+                {text: "调整心态，适应压力", value: "V"}
             ]
         },
         {
             id: 46,
             category: "cognition",
-            question: "你如何看待神秘体验和宗教信仰？",
+            question: "在学习语言时，你更倾向于？",
             options: [
-                {text: "神秘体验需要理性解释", value: "R"},
-                {text: "神秘体验是独特的认识方式", value: "X"}
+                {text: "学习语法规则和词汇", value: "R"},
+                {text: "通过对话和语境学习", value: "X"}
             ]
         },
         {
             id: 47,
             category: "ethics",
-            question: "你认为环境保护的道德基础是什么？",
+            question: "你认为对待隐私的态度应该是？",
             options: [
-                {text: "环境保护有利于人类福祉", value: "G"},
-                {text: "自然本身有内在价值", value: "D"}
+                {text: "在保护个人隐私的同时，考虑公共利益", value: "G"},
+                {text: "隐私是基本权利，应该得到尊重", value: "D"}
             ]
         },
         {
             id: 48,
             category: "society",
-            question: "你如何看待教育的目的？",
+            question: "你如何看待教育资源的分配？",
             options: [
-                {text: "教育应该培养社会需要的人才", value: "O"},
-                {text: "教育应该促进个人的全面发展", value: "M"}
+                {text: "应该均衡分配，确保每个孩子都有受教育的机会", value: "O"},
+                {text: "应该允许一定的差异，鼓励竞争和创新", value: "M"}
             ]
         },
         {
             id: 49,
             category: "reality",
-            question: "你认为自由意志存在吗？",
+            question: "当你评价一个人的成功时，你更关注？",
             options: [
-                {text: "人类有自由意志", value: "U"},
-                {text: "自由意志是幻觉，受因果决定", value: "V"}
+                {text: "他的成就和社会贡献", value: "U"},
+                {text: "他的个人成长和幸福感", value: "V"}
             ]
         },
         {
             id: 50,
             category: "cognition",
-            question: "你如何看待历史的意义？",
+            question: "在处理财务问题时，你更倾向于？",
             options: [
-                {text: "历史有客观规律可循", value: "R"},
-                {text: "历史的意义取决于我们的解读", value: "X"}
+                {text: "制定预算，理性规划", value: "R"},
+                {text: "根据需求和感受灵活安排", value: "X"}
             ]
         },
         {
             id: 51,
             category: "ethics",
-            question: "你认为堕胎的道德地位是什么？",
+            question: "你认为对待知识产权的态度应该是？",
             options: [
-                {text: "堕胎的道德性取决于具体情况", value: "G"},
-                {text: "堕胎侵犯胎儿生命权", value: "D"}
+                {text: "保护创新，促进知识传播", value: "G"},
+                {text: "尊重创作者的权利", value: "D"}
             ]
         },
         {
             id: 52,
             category: "society",
-            question: "你如何看待技术发展对社会的影响？",
+            question: "你如何看待科技发展？",
             options: [
-                {text: "技术应该服务于社会整体利益", value: "O"},
-                {text: "技术应该增强个人能力和自由", value: "M"}
+                {text: "科技应该服务于人类的整体福祉", value: "O"},
+                {text: "科技应该增强个人能力和自由", value: "M"}
             ]
         },
         {
             id: 53,
             category: "reality",
-            question: "你认为宇宙是有限的还是无限的？",
+            question: "当你面对人生重大决策时，你更倾向于？",
             options: [
-                {text: "宇宙是有限的，有边界", value: "U"},
-                {text: "宇宙是无限的，无边界", value: "V"}
+                {text: "考虑长远影响和后果", value: "U"},
+                {text: "跟随内心的声音和直觉", value: "V"}
             ]
         },
         {
             id: 54,
             category: "cognition",
-            question: "你如何看待数学的本质？",
+            question: "在评价他人的观点时，你更关注？",
             options: [
-                {text: "数学是客观真理的表达", value: "R"},
-                {text: "数学是人类思维的创造", value: "X"}
+                {text: "观点的逻辑和证据", value: "R"},
+                {text: "观点背后的动机和情感", value: "X"}
             ]
         },
         {
             id: 55,
             category: "ethics",
-            question: "你认为正义的本质是什么？",
+            question: "你认为人生的意义在于？",
             options: [
-                {text: "正义是公平分配的结果", value: "G"},
-                {text: "正义是对权利的尊重", value: "D"}
+                {text: "实现个人价值，为社会做出贡献", value: "G"},
+                {text: "遵循道德准则，追求内心的平静", value: "D"}
             ]
         }
     ]

@@ -306,7 +306,7 @@ p {
 }
 
 .philosopher-list {
-  margin: var(--spacing-lg) 0;
+  margin: var(--spacing-md) 0;
 }
 
 .philosopher-item {
@@ -356,7 +356,7 @@ p {
 
 /* 维度图表 */
 .dimension-chart {
-  margin: var(--spacing-lg) 0;
+  margin: var(--spacing-md) 0;
 }
 
 .dimension-item {
@@ -395,7 +395,7 @@ p {
 
 /* 分析部分 */
 .analysis-section {
-  margin: var(--spacing-lg) 0;
+  margin: var(--spacing-md) 0;
 }
 
 .analysis-title {
