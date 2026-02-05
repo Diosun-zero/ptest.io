@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHILOS哲学人格测试</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 英雄区域 -->
+        <section class="hero-section">
+            <h1 class="hero-title">PHILOS哲学人格测试</h1>
+            <p class="hero-subtitle">探索你的思想根源，发现你的哲学人格类型</p>
+        </section>
+
+        <!-- 测试选项 -->
+        <section class="test-options">
+            <div class="grid grid-cols-2">
+                <!-- 简易版测试 -->
+                <div class="card test-card" onclick="window.location.href='test-simple.html'">
+                    <div class="test-icon">⚡</div>
+                    <h3 class="card-title">简易版测试</h3>
+                    <p class="test-duration">25题 · 约10分钟</p>
+                    <p class="text-muted">适合时间有限，希望快速了解自己哲学倾向的用户</p>
+                    <button class="btn btn-primary w-full mt-4">开始测试</button>
+                </div>
+
+                <!-- 完整版测试 -->
+                <div class="card test-card" onclick="window.location.href='test-complex.html'">
+                    <div class="test-icon">🧠</div>
+                    <h3 class="card-title">完整版测试</h3>
+                    <p class="test-duration">55题 · 约25分钟</p>
+                    <p class="text-muted">适合深度探索，希望获得详细哲学人格分析的用户</p>
+                    <button class="btn btn-secondary w-full mt-4">开始测试</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 测试原理说明 -->
+        <section class="mt-6">
+            <h2 class="text-center">测试原理</h2>
+            <div class="card">
+                <div class="card-header">
+                    <h3>哲学维度解析</h3>
+                </div>
+                <div class="grid grid-cols-4">
+                    <!-- 实在观 -->
+                    <div>
+                        <h4 class="text-secondary">实在观</h4>
+                        <p><strong>U (本质)</strong>：相信世界有固定结构和真理</p>
+                        <p><strong>V (流变)</strong>：相信世界处于永恒变化中</p>
+                    </div>
+                    <!-- 认知观 -->
+                    <div>
+                        <h4 class="text-secondary">认知观</h4>
+                        <p><strong>R (理性)</strong>：通过逻辑和推理认识世界</p>
+                        <p><strong>X (体验)</strong>：通过感受和经验认识世界</p>
+                    </div>
+                    <!-- 伦理观 -->
+                    <div>
+                        <h4 class="text-secondary">伦理观</h4>
+                        <p><strong>G (目的)</strong>：以结果好坏判断价值</p>
+                        <p><strong>D (义务)</strong>：以原则对错判断价值</p>
+                    </div>
+                    <!-- 社会观 -->
+                    <div>
+                        <h4 class="text-secondary">社会观</h4>
+                        <p><strong>O (整体)</strong>：重视集体和谐和统一</p>
+                        <p><strong>M (多元)</strong>：重视个体差异和自由</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 字母系统解释 -->
+        <section class="mt-6">
+            <h2 class="text-center">字母系统</h2>
+            <div class="card">
+                <p class="text-center">PHILOS采用全新的8字母系统，完全独立于MBTI，基于哲学史核心争论设计</p>
+                <div class="grid grid-cols-2 mt-4">
+                    <div>
+                        <h4 class="text-secondary">16种哲学人格类型</h4>
+                        <ul class="analysis-list">
+                            <li>URGO - 山脉型</li>
+                            <li>URDO - 神庙型</li>
+                            <li>URGM - 灯塔型</li>
+                            <li>URDM - 法典型</li>
+                            <li>UXGO - 河流型</li>
+                            <li>UXDO - 家族徽章型</li>
+                            <li>UXGM - 花园型</li>
+                            <li>UXDM - 手工艺型</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-secondary">更多人格类型</h4>
+                        <ul class="analysis-list">
+                            <li>VRGO - 季风型</li>
+                            <li>VRDO - 日晷型</li>
+                            <li>VRGM - 航海图型</li>
+                            <li>VRDM - 弈棋型</li>
+                            <li>VXGO - 潮汐型</li>
+                            <li>VXDO - 篝火型</li>
+                            <li>VXGM - 集市型</li>
+                            <li>VXDM - 万花筒型</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 免责声明 -->
+        <section class="mt-6">
+            <div class="disclaimer">
+                <div class="disclaimer-title">免责声明</div>
+                <p>本测试仅供娱乐和自我探索，不构成专业心理评估。测试结果基于用户自陈回答，可能受到多种因素影响，不应作为任何形式的诊断或决策依据。</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">PHILOS哲学人格测试 &copy; 2026</p>
+            <p class="footer-text">探索思想根源，发现哲学自我</p>
+            <p class="footer-text">设计：哲学爱好者团队 | 技术：Trae IDE</p>
+        </div>
+    </footer>
+
+    <script>
+        // 入口页面交互
+        document.addEventListener('DOMContentLoaded', function() {
+            // 添加卡片点击效果
+            const testCards = document.querySelectorAll('.test-card');
+            testCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px)';
+                    this.style.boxShadow = '0 12px 24px rgba(0,0,0,0.15)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
