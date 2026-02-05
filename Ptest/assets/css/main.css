@@ -274,7 +274,7 @@ p {
   font-weight: 700;
   color: var(--wisdom-purple);
   text-align: center;
-  margin: var(--spacing-2xl) 0;
+  margin: var(--spacing-xl) 0;
   letter-spacing: 0.2em;
 }
 
@@ -283,7 +283,7 @@ p {
   font-size: 1.5rem;
   color: var(--philosophy-blue);
   text-align: center;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
 }
 
 .personality-academic-name {
@@ -292,21 +292,21 @@ p {
   color: var(--text-light);
   text-align: center;
   font-style: italic;
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
 }
 
 .symbol-container {
   text-align: center;
-  margin: var(--spacing-2xl) 0;
+  margin: var(--spacing-xl) 0;
 }
 
 .symbol-icon {
   font-size: 4rem;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
 }
 
 .philosopher-list {
-  margin: var(--spacing-xl) 0;
+  margin: var(--spacing-lg) 0;
 }
 
 .philosopher-item {
@@ -356,7 +356,7 @@ p {
 
 /* 维度图表 */
 .dimension-chart {
-  margin: var(--spacing-2xl) 0;
+  margin: var(--spacing-lg) 0;
 }
 
 .dimension-item {
@@ -395,7 +395,7 @@ p {
 
 /* 分析部分 */
 .analysis-section {
-  margin: var(--spacing-2xl) 0;
+  margin: var(--spacing-lg) 0;
 }
 
 .analysis-title {

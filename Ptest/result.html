@@ -30,37 +30,6 @@
             <p class="text-muted" id="symbolDescription">象征着稳定、坚固和永恒的真理</p>
         </section>
 
-        <!-- 历史人物对照 -->
-        <section class="philosopher-list">
-            <h2 class="text-center">历史人物对照</h2>
-            <div class="card">
-                <div class="philosopher-item">
-                    <div class="philosopher-avatar">柏</div>
-                    <div class="philosopher-info">
-                        <div class="philosopher-name">柏拉图</div>
-                        <div class="philosopher-era">古希腊</div>
-                        <div class="philosopher-thought">理念论 - 相信永恒不变的理念世界</div>
-                    </div>
-                </div>
-                <div class="philosopher-item">
-                    <div class="philosopher-avatar">亚</div>
-                    <div class="philosopher-info">
-                        <div class="philosopher-name">亚里士多德</div>
-                        <div class="philosopher-era">古希腊</div>
-                        <div class="philosopher-thought">实体论 - 重视本质和目的因</div>
-                    </div>
-                </div>
-                <div class="philosopher-item">
-                    <div class="philosopher-avatar">笛</div>
-                    <div class="philosopher-info">
-                        <div class="philosopher-name">笛卡尔</div>
-                        <div class="philosopher-era">近代哲学</div>
-                        <div class="philosopher-thought">理性主义 - 通过逻辑推理认识世界</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- 维度图表 -->
         <section class="dimension-chart">
             <h2 class="text-center">维度分析</h2>
@@ -103,6 +72,45 @@
                     </div>
                     <div class="dimension-bar">
                         <div class="dimension-fill positive" id="societyBar" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 历史人物对照 -->
+        <section class="philosopher-list">
+            <h2 class="text-center">历史与影视人物对照</h2>
+            <div class="card">
+                <div class="philosopher-item">
+                    <div class="philosopher-avatar">柏</div>
+                    <div class="philosopher-info">
+                        <div class="philosopher-name">柏拉图</div>
+                        <div class="philosopher-era">古希腊</div>
+                        <div class="philosopher-thought">理念论 - 相信永恒不变的理念世界</div>
+                    </div>
+                </div>
+                <div class="philosopher-item">
+                    <div class="philosopher-avatar">亚</div>
+                    <div class="philosopher-info">
+                        <div class="philosopher-name">亚里士多德</div>
+                        <div class="philosopher-era">古希腊</div>
+                        <div class="philosopher-thought">实体论 - 重视本质和目的因</div>
+                    </div>
+                </div>
+                <div class="philosopher-item">
+                    <div class="philosopher-avatar">笛</div>
+                    <div class="philosopher-info">
+                        <div class="philosopher-name">笛卡尔</div>
+                        <div class="philosopher-era">近代哲学</div>
+                        <div class="philosopher-thought">理性主义 - 通过逻辑推理认识世界</div>
+                    </div>
+                </div>
+                <div class="philosopher-item">
+                    <div class="philosopher-avatar">福</div>
+                    <div class="philosopher-info">
+                        <div class="philosopher-name">福尔摩斯</div>
+                        <div class="philosopher-era">影视作品</div>
+                        <div class="philosopher-thought">演绎推理 - 通过逻辑分析解决问题</div>
                     </div>
                 </div>
             </div>
@@ -538,6 +546,7 @@
                 const philosopherContainer = document.querySelector('.philosopher-list .card');
                 philosopherContainer.innerHTML = '';
                 
+                // 添加哲学家
                 type.philosophers.forEach((philosopher, index) => {
                     const initial = philosopher.name.charAt(0);
                     const philosopherHTML = `
@@ -551,6 +560,35 @@
                         </div>
                     `;
                     philosopherContainer.innerHTML += philosopherHTML;
+                });
+                
+                // 添加影视作品人物
+                const movieCharacters = [
+                    {
+                        name: "福尔摩斯",
+                        era: "影视作品",
+                        thought: "演绎推理 - 通过逻辑分析解决问题"
+                    },
+                    {
+                        name: "蜘蛛侠",
+                        era: "影视作品",
+                        thought: "责任与义务 - 能力越大，责任越大"
+                    }
+                ];
+                
+                movieCharacters.forEach((character, index) => {
+                    const initial = character.name.charAt(0);
+                    const characterHTML = `
+                        <div class="philosopher-item">
+                            <div class="philosopher-avatar">${initial}</div>
+                            <div class="philosopher-info">
+                                <div class="philosopher-name">${character.name}</div>
+                                <div class="philosopher-era">${character.era}</div>
+                                <div class="philosopher-thought">${character.thought}</div>
+                            </div>
+                        </div>
+                    `;
+                    philosopherContainer.innerHTML += characterHTML;
                 });
                 
                 // 更新分析信息
